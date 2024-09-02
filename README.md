@@ -21,7 +21,7 @@ The **Logical Arguments Validator** is a C++ program designed to evaluate the va
 
 ## Examples
 
-#### Example 1
+### Example 1
 
 Ahmed or Mona ate the chocolate. If Karim or Mona ate the chocolate then, Ahmed did not eat the chocolate. Thus, Ahmed or Karim ate the chocolate.
 
@@ -51,7 +51,7 @@ Do you want to negate the first variable? (Y/N): N
 Do you want to negate the second variable? (Y/N): N
 ```
 
-### Output
+#### Output
 
 ```
 Ahmed   Karim   Mona    Premise 1       Premise 2       Conclusion
@@ -68,7 +68,7 @@ Ahmed   Karim   Mona    Premise 1       Premise 2       Conclusion
 The argument is invalid because the conclusion is false at a critical row at least once.
 ```
 
-#### Example 2
+### Example 2
 
 The children are playing Football or Tennis. If they are watching TV or playing Tennis, then they are not playing Football. Therefore, they are not playing Football or they are not watching TV.
 
@@ -98,7 +98,7 @@ Do you want to negate the first variable? (Y/N): N
 Do you want to negate the second variable? (Y/N): Y
 ```
 
-### Output
+#### Output
 
 ```
 Football        Tennis  TV      Premise 1       Premise 2       Conclusion
@@ -115,7 +115,7 @@ Football        Tennis  TV      Premise 1       Premise 2       Conclusion
 The argument is invalid because the conclusion is false at a critical row at least once.
 ```
 
-#### Example 3
+### Example 3
 
 If Khalid or Mariam went hiking then, Aly did not go hiking. Aly or Mariam went hiking. Thus, Aly went hiking or Khalid did not go hiking.
 
@@ -145,7 +145,7 @@ Do you want to negate the first variable? (Y/N): N
 Do you want to negate the second variable? (Y/N): Y
 ```
 
-### Output
+#### Output
 
 ```
 Khalid  Mariam  Aly     Premise 1       Premise 2       Conclusion
