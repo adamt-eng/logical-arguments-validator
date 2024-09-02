@@ -10,6 +10,40 @@ The **Logical Arguments Validator** is a C++ program designed to evaluate the va
 - **Truth Table Generation**: The program automatically generates a truth table for all possible truth values of the variables.
 - **Argument Validity Check**: The program checks the validity of the argument by ensuring that the conclusion is true whenever the premises are true.
 
+## Installation
+
+### Installation Using [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/adamt-eng/logical-arguments-validator
+   ```
+
+2. **Open the Project**
+
+   - Navigate to the directory where the repository was cloned.
+   - Open the `Logical Arguments Validator.sln` solution file in Visual Studio.
+
+3. **Build the Project**
+
+   - Once the project is opened in Visual Studio, build the solution by selecting `Build > Build Solution` from the menu or pressing `Ctrl + Shift + B`.
+
+4. **Run the Program**
+
+   - After building the solution, you can run the program by pressing `F5` or selecting `Debug > Start Debugging`.
+
+### Alternative Compilation
+
+If you prefer not to use Visual Studio, you can directly compile the `Program.cpp` file using a standard C++ compiler of your choice.
+
+### Additional Notes
+
+- If there are any missing dependencies or libraries, Visual Studio will prompt you to install them automatically.
+- Ensure that your system has the necessary C++ development tools and libraries installed through Visual Studio's installer or your preferred development environment.
+
 ## Usage
 
 1. **Enter Variable Names**: Upon running the program, you'll be prompted to assign names to your variables (e.g., A, B, C).
